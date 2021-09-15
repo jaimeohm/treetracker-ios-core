@@ -6,6 +6,7 @@ Pod::Spec.new do |spec|
   spec.summary = "Greenstand Treetracker core library."
   spec.platform = :ios, "11.0"
   spec.authors = { "Alex Cornforth" => "alexcornforth@me.com" }
+  spec.swift_version = '5.0'
   spec.source = { :git => "https://github.com/Greenstand/treetracker-ios-core.git", :tag => "v0.0.2" }
   spec.source_files  = "treetracker-core/**/*.{h,m,swift}"
   spec.resources = "Resources/*"

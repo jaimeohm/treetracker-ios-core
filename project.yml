@@ -1,0 +1,9 @@
+  name: treetracker-core
+  options:
+    bundleIdPrefix: com.greenstand
+  targets:
+    Treetracker-Core:
+      type: framework
+      platform: iOS
+      deploymentTarget: "11.0"
+      sources: treetracker-core

@@ -1,0 +1,24 @@
+PODS:
+  - AWSCore (2.28.5)
+  - AWSS3 (2.28.5):
+    - AWSCore (= 2.28.5)
+  - SwiftLint (0.50.3)
+
+DEPENDENCIES:
+  - AWSS3 (= 2.28.5)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - AWSCore
+    - AWSS3
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  AWSCore: 4bad3f0eb17393b4926a9491e32b835991c56382
+  AWSS3: 4bc7118f373a6c25543d99e67c55b409eaf769fd
+  SwiftLint: 77f7cb2b9bb81ab4a12fcc86448ba3f11afa50c6
+
+PODFILE CHECKSUM: 7d3549ab807f7e818c78605f70614772f5d73a10
+
+COCOAPODS: 1.11.3
